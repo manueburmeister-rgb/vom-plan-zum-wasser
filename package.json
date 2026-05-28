@@ -5,13 +5,14 @@
   "description": "IDPA-Dokumentation: Vom Plan zum Wasser — Entwicklung eines Hydrofoils",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "tsx scripts/build-image-manifest.ts && next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "validate": "tsx lib/validate.ts",
     "normalize-images": "tsx scripts/normalize-filenames.ts",
-    "list-images": "tsx scripts/list-images.ts"
+    "list-images": "tsx scripts/list-images.ts",
+    "build-image-manifest": "tsx scripts/build-image-manifest.ts"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.0.1",

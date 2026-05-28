@@ -275,13 +275,27 @@ let memoizedScan: ScannedImage[] | null = null
 
 /**
  * Liefert alle gescannten Bilder.
- *   - Production: einmaliger Scan, danach memoized
- *   - Development: re-scan pro Aufruf (neue Bilder ohne Server-Restart sichtbar)
+ *   - Production: liest aus dem zur Build-Zeit erzeugten Manifest
+ *     (lib/image-manifest.json). Falls Manifest fehlt -> Fallback: live scannen.
+ *   - Development: live scannen pro Aufruf (neue Bilder ohne Restart sichtbar).
+ *
+ * Wichtig: In Production wird NICHT live gescannt, weil Vercel sonst alle
+ * Bilder ins Serverless-Function-Bundle packt und das 300-MB-Limit sprengt.
  */
 export async function getAllImages(): Promise<ScannedImage[]> {
   const isDev = process.env.NODE_ENV === 'development'
-  if (!isDev && memoizedScan !== null) {
-    return memoizedScan
+
+  // Production: Manifest aus dem Build verwenden (dynamischer Import,
+  // damit der Linter im Dev-Modus nicht meckert falls das Manifest noch fehlt).
+  if (!isDev) {
+    if (memoizedScan !== null) return memoizedScan
+    try {
+      const manifest = (await import('./image-manifest.json')).default as ScannedImage[]
+      memoizedScan = manifest
+      return memoizedScan
+    } catch {
+      console.warn('[images] image-manifest.json nicht gefunden, scanne live')
+    }
   }
 
   const ctx: ScanContext = {
