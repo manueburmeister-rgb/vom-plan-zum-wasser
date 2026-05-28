@@ -1,0 +1,118 @@
+import { SektionGalerie } from '@/components/chapter/SektionGalerie'
+
+<h2 id="konstruktion-skizze">2.2.1 Konstruktion / Skizze</h2>
+
+Die Erstellung von ersten händischen Skizzen stellte eine wichtige Grundlage für unsere Planung dieser Projektarbeit dar. Durch die Skizzen erhielten wir einen guten Überblick über die jeweiligen Komponenten, erste Hürden und Schwierigkeiten wurden ersichtlich und konnten schon einmal grob besprochen werden. Ausserdem bekamen wir ein erstes Gefühl für Spannweite, Profilarten und Verbindungsarten beziehungsweise Bauweisen. Diese Überlegungen im Voraus halfen uns später, sinnvolle Entscheidungen zu treffen und das Projekt voranzutreiben.
+
+Ausserdem halfen uns die Skizzen dabei, uns die Bauteile besser dreidimensional vorstellen zu können. Dadurch wurde unsere Kommunikation verbessert und wir konnten sicherstellen, dass wir beide vom selben sprachen. Dadurch fiel es uns leichter, unsere Ideen zu bündeln und effizient auf einen gemeinsamen Nenner zu kommen. Dies lief teilweise parallel zur CAD-Konstruktion, wodurch wir unser 3D-Modell mit Hilfe der Skizzen laufend weiterentwickeln konnten.
+
+<SektionGalerie sektionId="planung#konstruktion-skizze" />
+
+<h2 id="dimensionen">2.2.2 Dimensionen</h2>
+
+Die Festlegung der Dimensionen ist ein zentraler Schritt in der Entwicklung des Hydrofoils, da diese direkt die Eigenschaften sowie das Fahrverhalten beeinflussen. Die Dimensionierung basierte auf bereits bewährten Hydrofoils. Der Frontwing macht das meiste aus und gibt uns primär die Eigenschaften, die das Foil am Ende ausmachen. Als Vorbild für unseren eigenen Frontflügel haben wir die Frontflügel Carve 3.0 D/LAB 800 cm² und den Glide 2.0 SLS 1350 cm² von Duotone analysiert und uns überlegt, welche Eigenschaften wir abändern wollen. Aus der Kombination eigener praktischer Erfahrungen mit diesen beiden Frontflügeln haben wir diese Dimensionen herausgeschrieben und nach unten oder oben angepasst. Das Hydrofoil soll für 12–20 Knoten (1 kn = 1.852 km/h) funktionieren.
+
+Die Aspect Ratio (AR) ist die Spannweite im Quadrat geteilt durch die Fläche. Diese sagt sehr viel über einen Flügel aus. Eine kleine AR (< 5) ermöglicht bessere Stabilität und ein früheres Abheben, ist aber weniger effizient beim Gleiten. Eine höhere AR (> 7) ermöglicht eine höhere Geschwindigkeit und besseres Gleiten, ist jedoch weniger stabil. Unser Frontwing soll vor allem mehr Zeit für Manöver bieten und trotzdem noch sehr wendig sein. Eine grössere AR verbessert das Gleiten, damit man mehr Zeit für ein Manöver hat. Um das Manöver dann aber noch gut durchführen zu können, braucht es ein Profil, das die Wendigkeit dennoch gewährleistet. Das können wir mit den Flächentips und dem Profilmorph an den Flügelenden erreichen. Die Flächentips bezeichnen die äusseren Enden des Flügels, deren Form und Winkel die Strömung beeinflussen und so die Wendigkeit verbessern. Der Profilmorph beschreibt den fliessenden Übergang zwischen verschiedenen Profilformen entlang der Spannweite — von einem auftriebsstarken Profil in der Mitte hin zu einem wendigeren Profil an den Flügelenden.
+
+Basierend auf diesen Überlegungen wurden folgende Dimensionen festgelegt. Für den Frontwing wurde eine Fläche von rund 1000 cm² definiert. Diese Wahl stellt einen Kompromiss zwischen ausreichend Auftrieb bei moderaten Windbedingungen und gleichzeitig hoher Wendigkeit dar. In Kombination mit einer Spannweite von 900 mm ergibt sich ein ausgewogenes Verhältnis zwischen Effizienz und Manövrierbarkeit und somit eine AR von 8.1. Als Profil wurde ein NACA 2412 gewählt, welches aufgrund seiner Wölbung bereits bei kleinen Anstellwinkeln Auftrieb erzeugt und somit ein frühes Abheben ermöglicht.
+
+Der Backwing wurde mit einer deutlich kleineren Fläche von 195 cm² dimensioniert. Diese entspricht etwa 19.5 % der Frontwingfläche und liegt somit im unteren Bereich üblicher Auslegungen. Ziel dieser Wahl war ein sportliches und agiles Fahrverhalten mit reduziertem Widerstand.
+
+Für die Fuselage haben wir die genauen Masse und Verbindungspunkte der Fuselage von Duotone übernommen und nachgemessen. Damit ist unser Foil kompatibel mit verschiedenen Front- und Backwings sowie mit dem Mast von Duotone. Alles Weitere haben wir so angepasst, dass wir dieses Bauteil mit den Maschinen von Victorinox umsetzen konnten. Das Adapterstück wurde auf dieselbe Weise entwickelt. Dabei musste die Verbindung der Duotone-Fuselage und die Verbindung des Axis-Masts genau aufgenommen und so übernommen werden, dass sie zusammengefügt werden können.
+
+Zusammenfassend lässt sich festhalten, dass die Dimensionierung aller Komponenten aufeinander abgestimmt wurde. Ziel war es, ein Gesamtsystem zu entwickeln, das sowohl gute Gleiteigenschaften als auch ein agiles Fahrverhalten aufweist.
+
+<SektionGalerie sektionId="planung#dimensionen" />
+
+<h2 id="cad-modell">2.2.3 CAD-Modell</h2>
+
+Die Konstruktion der einzelnen Hydrofoil-Komponenten erfolgte mittels zwei unterschiedlichen CAD-Softwaren. Für die komplexen Freiformflächen der Wings benutzten wir das Programm Shape3DX, welches speziell für die Modellierung von Surfbrettern entwickelt wurde. Durch das Interview mit Michael Näf erfuhren wir von diesem Programm. Nach weiterer Recherche und dem Vergleich mit anderen CAD-Programmen wie Siemens NX und Fusion 360 entschieden wir uns, den Front- und Backwing mit Shape3DX zu designen. Zum einen, weil dieses Programm im Vergleich zu den anderen einfacher im Aufbau ist und speziell für solche Formerstellungen konzipiert wurde. Dies zeigt sich unter anderem in der gut funktionierenden Slice-Funktion, welche es dem Benutzer ermöglicht, NACA-Profile einzufügen und die 2D-Skizzen in ein 3D-Modell zu überführen.
+
+Um später die erstellten 3D-Modelle exportieren zu können, mussten wir uns jedoch für die kostenpflichtige Version von Shape3DX entscheiden. Die restlichen Komponenten erstellten wir im CAD-Programm Fusion 360, da dieses kostenlos ist und wir bereits einige private Projekte erfolgreich damit umgesetzt hatten. Dies war ein grosser Vorteil, da wir die Grundfunktionen bereits kannten und uns schnell zurechtfanden.
+
+Das Ziel dieser digitalen Modellierung war es, die zuvor festgelegten Dimensionen sowie die ausgewählten Profilgeometrien möglichst genau umzusetzen und eine gute Grundlage für die spätere Herstellung zu schaffen. Besonders bei komplexen Bauteilen wie dem Front- und Backwing war eine präzise Konstruktion entscheidend, da bereits kleine Abweichungen einen negativen Einfluss auf die Strömungseigenschaften haben können.
+
+<h3 id="cad-frontwing">2.2.3.1 Frontwing</h3>
+
+Beim Frontwing starteten wir zuerst mit einer 2D-Zeichnung, dabei nahmen wir unsere zuvor erstellten Skizzen zur Hilfe. In der Skizzierphase hatten wir bereits verschiedene Formen und Flächenverteilungen miteinander verglichen. Schlussendlich entschieden wir uns für einen Kompromiss zwischen einem Frontwing mit guten Gleiteigenschaften und einem mit hoher Manövrierbarkeit. Die Flächenverteilung wählten wir so, dass sich der grösste Teil der Fläche in der Mitte des Wings befindet. Dadurch wollten wir einen guten Lift bei geringen Geschwindigkeiten erzeugen, ohne dabei zu viel Agilität zu verlieren. Gleichzeitig konnten wir dadurch eine hohe Formstabilität erreichen.
+
+Nach der 2D-Zeichnung erstellten wir einen dreidimensionalen Körper. Unser zuvor definiertes NACA-Profil konnten wir mit Hilfe der Slice-Funktion entlang der 2D-Zeichnung einfügen. So entstand unser erstes rohes 3D-Modell. Durch die 3D-Simulation erhielten wir eine sehr realitätsnahe Vorschau darauf, wie der Frontwing später aussehen wird.
+
+Kleine Anpassungen erforderten oftmals eine komplette Aktualisierung der Slices. Da dieses Programm kurvenbasiert arbeitet und einzelne Punkte voneinander abhängig sind, kam es bei feinen Veränderungen häufig vor, dass sich grosse Bereiche des 3D-Modells verschoben. Vor allem die lokale Verstärkung im Bereich der Fuselage stellte sich als grosse Herausforderung heraus. Mit den Problemen rund um die lokale Verstärkung gelangten wir schliesslich an einen Punkt, an dem wir stagnierten. Nach stundenlangem Ausprobieren mussten wir einsehen, dass wir auf Hilfe angewiesen waren. Deshalb wandten wir uns an den Support von Shape3DX und erhielten sehr kompetente und effiziente Unterstützung. Durch mehrere längere E-Mail-Konversationen fanden wir schlussendlich gemeinsam eine Lösung.
+
+Nun hatten wir einen fast fertigen Frontwing, welcher in der Mitte verstärkt war, jedoch noch keine Verbindung zur Fuselage besass. Diese Schnittstelle erstellten wir später im Programm Fusion 360. Dort konnten wir die einzelnen Komponenten als Baugruppe zusammenfügen und exakt ausrichten. So stellten wir sicher, dass die Ebenen von Front- und Backwing parallel zueinander sind und der Angle of Attack stimmt. Nach der Ausrichtung konnten wir mit der Funktion «Körper schneiden» die Schnittstellen hinzufügen und die gewünschten Passgenauigkeiten einbauen.
+
+<SektionGalerie sektionId="planung#cad-frontwing" />
+
+<h3 id="cad-backwing">2.2.3.2 Backwing</h3>
+
+Das Erstellen des Backwings war vom Ablauf her sehr ähnlich wie das des Frontwings. Zuerst erfolgte erneut eine 2D-Zeichnung im Programm Shape3DX, welche danach mit Hilfe des NACA-Profils und der Slice-Funktion zu einem 3D-Modell umgewandelt wurde. Nach einigen Anpassungen erhielten wir unseren finalen Körper. Da das Erstellen der Schnittstelle vom Backwing zur Fuselage weniger komplex war, exportierten wir unser 3D-Modell anschliessend ins Programm Fusion 360 und konstruierten die Verstärkung sowie die Verbindung direkt dort. Dies war für uns die effizienteste Lösung, da wir uns in diesem Programm bereits besser zurechtfanden. So konnten wir Zeit einsparen und gelangten speditiv zum Ziel.
+
+<SektionGalerie sektionId="planung#cad-backwing" />
+
+<h3 id="cad-fuselage">2.2.3.3 Fuselage</h3>
+
+Die Fuselage ist das Verbindungselement zwischen Frontwing, Backwing und Mast. Sie vereint alle Komponenten miteinander und ist daher ein essenzielles Bauteil des Hydrofoils. Stabile Schnittstellen und Schraubverbindungen zu Frontwing, Backwing und Mast sowie eine hohe Eigenstabilität der Fuselage standen beim Konstruieren dieses Bauteils an oberster Stelle. Deshalb orientierten wir uns sehr stark an der bereits vorhandenen Duotone-Fuselage.
+
+Die Duotone-Fuselage direkt zu übernehmen wäre die einfachste, schnellste und günstigste Variante gewesen. Da wir jedoch kein 3D-Modell dieser Fuselage besassen und sich das Herausmessen der Masse, insbesondere der vorderen Rundung, als sehr schwierig erwies, waren wir gezwungen, eine eigene Fuselage mit eigener, aber trotzdem möglichst ähnlicher Schnittstelle zu konstruieren. So stellten wir sicher, dass wir eine hohe Passgenauigkeit erreichen konnten und es bei der Montage nicht zu bösen Überraschungen wie zu viel Spiel oder nicht passenden Verbindungen kam.
+
+Die Konstruktion erfolgte in Fusion 360. Dabei versuchten wir, möglichst viele Masse, Verbindungstypen und Konturen zu übernehmen, da sich diese bereits hervorragend bewährt hatten. Bei der Konstruktion spielte die fertigungstechnische Umsetzbarkeit auf der Fräsmaschine ebenfalls eine grosse Rolle. Ein gut umsetzbares und nicht unnötig komplexes Bauteil erspart dem CNC-Programmierer viel Arbeit und erhöht gleichzeitig die Prozesssicherheit. Das Erstellen der technischen Zeichnung für die spätere Fertigung des Bauteils stellte den letzten Teil der Konstruktionsphase der Fuselage dar.
+
+<SektionGalerie sektionId="planung#cad-fuselage" />
+
+<h3 id="cad-adapterstueck">2.2.3.4 Adapterstück</h3>
+
+Da wir uns aus Zeit- und Kostengründen gegen die Herstellung eines Carbon-Masts entschieden hatten, wollten wir einen bereits vorhandenen Mast von uns verwenden. Da Dimitris Equipment von der Marke «Axis» ist und Manues von «Duotone», mussten wir uns für ein Setup entscheiden. Jeder Foil-Hersteller verwendet jedoch andere Schnittstellen und Verbindungstypen. Das bedeutet, unser Foil wäre nur mit einer Marke kompatibel gewesen. Dieses Problem wollten wir mit unserem selbst entwickelten Adapterstück umgehen. Das Ziel war es, einen Adapter zu entwickeln, welcher es ermöglicht, einen Axis-Mast auf eine Duotone-Fuselage zu montieren.
+
+Nach einer ausgiebigen Skizzierphase und langen Überlegungen sahen wir, dass die Lösung näher liegt als gedacht. Die Verbindung zur Fuselage musste gleich sein wie die von Duotone und die Schnittstelle auf der Mastseite musste in dasselbe NACA-Profil laufen wie das des Aluminium-Axis-Masts. Um später eine hohe Passgenauigkeit garantieren zu können, erfolgte die Vermessung des Duotone-Masts nicht mit der Schieblehre, sondern auf einem 3D-Messplatz in der Victorinox AG. Die Genauigkeit einer Schieblehre von ungefähr 0.05 mm hätte theoretisch zwar ausgereicht, doch das genaue Vermessen wurde durch verschiedene Rundungen und schräge Flächen am Mast fast unmöglich.
+
+Nach dem Vermessen konnten wir die 3D-Messdaten in unser CAD-Programm übernehmen und ein genaues Abbild der Duotone-Schnittstelle erstellen. Die gewünschte Stabilität erreichten wir mit dem V-förmigen Aufsatz, welcher später in den Mast gesteckt wird. Hohen Wert legten wir ebenfalls auf die Umsetzbarkeit in der CNC-Bearbeitung. Mit dieser flexiblen Lösung ist es uns gelungen, eine momentan noch nicht auf dem Markt vorhandene Brücke für Axis-Foiler zur Marke Duotone herzustellen.
+
+<SektionGalerie sektionId="planung#cad-adapterstueck" />
+
+<h3 id="cad-pressformen">2.2.3.5 Pressformen</h3>
+
+Das Konstruieren der Pressformen erforderte viel Geduld und CAD-Können. Dabei brachten wir sowohl uns selbst als auch den Computer an unsere Grenzen. Im Programm Shape3DX konnten wir mit den Daten des Front- und Backwings automatisch eine Form erstellen lassen. Diese war jedoch noch mit kleinen Fehlern in der 3D-Oberfläche behaftet und sorgte nach dem Exportieren ins Fusion 360 für viele Probleme. 3D-Körper, welche nicht perfekt geschlossen sind oder sogar kleine Löcher in der Oberfläche aufweisen, können vom Programm nur sehr schwer berechnet und bearbeitet werden.
+
+Zusätzlich mussten wir noch einige Änderungen an der ausgegebenen Pressform vornehmen, da in der Form weder eine Schnittstelle zur Fuselage noch Harzabläufe oder Formzentrierungen von Shape3DX erstellt wurden. Die Schnittstelle erstellten wir, indem wir unseren Wing exakt ausrichteten und anschliessend in die Form einfügten. So konnten wir den Wing mit der Form schneiden und erhielten dadurch das negative Abbild in der Formhälfte. Zusätzlich verrundeten wir scharfe Kanten an der Schnittstelle, um Sollbruchstellen am Carbon-Wing zu vermeiden. Da wir nicht genau wussten, welche Genauigkeit wir beim späteren Carbon-Wing erwarten konnten, rechneten wir mit einer genügend grossen Toleranz von ungefähr 0.5 mm pro Seite.
+
+Zuletzt unterteilten wir die Formen erneut, da sie für unseren 3D-Drucker zu gross waren. Deshalb mussten wir uns zusätzlich eine Verbindungsart überlegen, mit welcher wir die Einzelteile später wieder zu einer vollständigen Form zusammensetzen konnten. Wir entschieden uns für eine Aussparung auf beiden Unterseiten, wodurch wir normale Schrauben verwenden konnten. Diese Lösung machte unser Konstrukt einfach in der Montage und stellte gleichzeitig sicher, dass die Verbindung stabil bleibt.
+
+<SektionGalerie sektionId="planung#cad-pressformen" />
+
+<h2 id="material">2.2.4 Material</h2>
+
+Die Wahl der Materialien stellt einen zentralen Aspekt bei der Entwicklung des Hydrofoils dar, da sie einen entscheidenden Einfluss auf die mechanischen Eigenschaften, das Gewicht sowie die Herstellbarkeit der einzelnen Komponenten hat. Im vorliegenden Projekt wurde bewusst auf einen Faserverbundaufbau gesetzt, da dieses System eine optimale Festigkeit und geringes Gewicht bietet.
+
+Carbonfasern zeichnen sich durch eine hohe spezifische Festigkeit und Steifigkeit aus, wodurch sie sich besonders für hochbelastete Bauteile wie den Frontwing und Backwing eignen. Im Vergleich zu metallischen Werkstoffen ermöglicht Carbon eine deutliche Gewichtsreduktion bei gleichzeitig hoher struktureller Belastbarkeit. Der Laminataufbau besteht aus mehreren Schichten und wurde bewusst so aufgebaut:
+
+| Schicht | Material | Funktion |
+| --- | --- | --- |
+| Aussen | Glasgewebe 163 g/m² | Schützt die Carbonschicht beim Bearbeiten |
+| 2. Schicht | Carbongewebe 240 g/m² | Sichtbare Schicht, Carbon-Erscheinungsbild |
+| 3. Schicht | Carbongelege UD 125 g/m² | Maximale Steifigkeit entlang der Spannweite |
+| 4. Schicht | Carbongelege Biax 220 g/m² | Widerstand gegen Torsion |
+
+Alle Gewebe stammen von Suter Kunststoffe AG. Als Bindemittel wurde das Epoxidharzsystem Epoxy Resin L mit dem Härter LT verwendet, im Mischverhältnis 100 Harz / 25 Härter. Damit sich das fertige Bauteil nach dem Aushärten sauber aus der Pressform lösen lässt, wurden die Formen zuerst mit SCS PVA Folientrennmittel beschichtet und anschliessend mit OSKAR's M-710 Mould Release Paste Wax eingeschmiert.
+
+Für die Fuselage und das Adapterstück war von Anfang an klar, dass wir diese aus Aluminium fertigen. Bei diesen Bauteilen ist eine hohe Massgenauigkeit entscheidend, da sie präzise zusammenpassen müssen. Aluminium lässt sich sehr genau zerspanen, ist korrosionsbeständig, leicht und trotzdem ausreichend fest für die auftretenden Kräfte.
+
+Für den 3D-Druck haben wir uns für ABS entschieden — ein kratzfestes und hartes Filament, das formstabil ist und höhere Temperaturen verträgt. Bei der Frontwingpressform verwendeten wir PETG, das eine gute Kombination aus Festigkeit, Flexibilität und einfacher Verarbeitbarkeit bietet und sich deutlich weniger verzieht als ABS. Für die Prototypen haben wir PLA verwendet, das Standardfilament beim 3D-Druck.
+
+<SektionGalerie sektionId="planung#material" />
+
+<h2 id="verfahren">2.2.5 Verfahren</h2>
+
+Die Wahl des Fertigungsverfahrens wurde stark durch unsere vorhandenen Werkstattmöglichkeiten sowie die Anforderungen an das Bauteil beeinflusst. Unser Ziel war es, ein Verfahren zu wählen, das einerseits eine gute Bauteilqualität ermöglicht und andererseits im Rahmen unserer Projektarbeit realistisch umsetzbar ist.
+
+Wir entschieden uns für ein Pressverfahren mit zweiteiliger Negativform. Mit diesem Verfahren können Bauteile mit einer definierten Geometrie und einer relativ guten Oberflächenqualität hergestellt werden. Durch den Druck beim Schliessen der Form wird überschüssiges Harz aus dem Laminat gedrückt. Dadurch erhöht sich der Faseranteil im Bauteil, was zu besseren mechanischen Eigenschaften führt. Die Formen wurden mittels 3D-Druck aus ABS und PETG hergestellt.
+
+Ein weiterer Vorteil unseres Verfahrens ist die Kombination mit einem 3D-gedruckten Kern im Frontwing. Dieser wird später ins Bauteil einlaminiert und dient sowohl zur Stabilität als auch zur Reduktion des Carbonvolumens. Dadurch konnten wir den Herstellungsprozess vereinfachen und gleichzeitig die gewünschten mechanischen Eigenschaften erreichen.
+
+<SektionGalerie sektionId="planung#verfahren" />
+
+<h2 id="fazit">2.2.6 Fazit</h2>
+
+Die Planungsphase beanspruchte insgesamt deutlich mehr Zeit als ursprünglich erwartet. Einer der Hauptgründe dafür war, dass wir mit zwei verschiedenen CAD-Programmen arbeiteten und das Programm Shape3DX komplett neu für uns war. Dadurch mussten wir uns zuerst intensiv in die neue Software einarbeiten. Rückblickend war dies jedoch sehr wertvoll, da wir unsere CAD-Kenntnisse und allgemeinen Konstruktionsfähigkeiten stark verbessern konnten.
+
+Trotz einigen Schwierigkeiten war die 3D-Konstruktion ein sehr wichtiger Bestandteil unseres Projekts. Nur durch die genaue CAD-Konstruktion konnten wir anschliessend die Pressformen mit dem 3D-Drucker herstellen und unser Fertigungsverfahren erfolgreich umsetzen. Ausserdem lernten wir während der Planung, wie wichtig es ist, flexibel zu bleiben. Nicht jede erste Idee funktioniert später auch in der Praxis. Genau diese Flexibilität half uns schlussendlich dabei, sinnvolle Lösungen zu finden und das Projekt erfolgreich voranzutreiben.

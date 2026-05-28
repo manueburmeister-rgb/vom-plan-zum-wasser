@@ -1,0 +1,50 @@
+[
+  {
+    "id": "backwing-cad-vs-fertig",
+    "titel": "Backwing: vom CAD-Modell zum Carbon-Teil",
+    "typ": "slider",
+    "bild_links_dateiname": "backwing-in-shape3dx-3dmodell",
+    "bild_rechts_dateiname": "backwing-aus-form-entnommen",
+    "beschriftung_links": "3D-Modell (Shape3DX)",
+    "beschriftung_rechts": "Carbon-Teil aus der Form",
+    "erklaerung": "Der Backwing wurde zuerst in Shape3DX modelliert und diente als erstes Testbauteil zur Überprüfung des Fertigungsverfahrens.",
+    "kapitel_slug": "realisierung",
+    "sektion_id": "realisierung#backwing"
+  },
+  {
+    "id": "fuselage-cad-vs-eloxiert",
+    "titel": "Fuselage: vom CAD-Modell zum eloxierten Bauteil",
+    "typ": "slider",
+    "bild_links_dateiname": "fuselage-in-cad-zusehen",
+    "bild_rechts_dateiname": "fuselage-komplett-fertig-auch-eloxiert",
+    "beschriftung_links": "CAD-Modell (Fusion 360)",
+    "beschriftung_rechts": "CNC-gefräst & eloxiert",
+    "erklaerung": "Die Fuselage wurde in Fusion 360 konstruiert, auf einer 5-Achs-CNC-Fräsmaschine aus Aluminium gefertigt und anschliessend schwarz eloxiert.",
+    "kapitel_slug": "realisierung",
+    "sektion_id": "realisierung#fuselage"
+  },
+  {
+    "id": "adapterstueck-cad-vs-fertig",
+    "titel": "Adapterstück: vom CAD-Modell zum Endprodukt",
+    "typ": "slider",
+    "bild_links_dateiname": "adapterstueck-in-cad-1",
+    "bild_rechts_dateiname": "fuselage-und-adapter-komplett-fertig-und-eloxiert",
+    "beschriftung_links": "CAD-Modell (Fusion 360)",
+    "beschriftung_rechts": "Fertig & eloxiert",
+    "erklaerung": "Das selbst entwickelte Adapterstück verbindet einen Axis-Mast mit einer Duotone-Fuselage — eine Lösung, die so nicht auf dem Markt erhältlich ist.",
+    "kapitel_slug": "realisierung",
+    "sektion_id": "realisierung#adapterstueck"
+  },
+  {
+    "id": "frontwing-cad-vs-fertig",
+    "titel": "Frontwing: vom CAD-Modell zum lackierten Wing",
+    "typ": "slider",
+    "bild_links_dateiname": "frontwing-in-shape-3d-modell",
+    "bild_rechts_dateiname": "frontwing-fertig-geschliffen",
+    "beschriftung_links": "3D-Modell (Shape3DX)",
+    "beschriftung_rechts": "Fertig geschliffen",
+    "erklaerung": "Der Frontwing ist die zentrale Auftriebsfläche. Vom Shape3DX-Modell über den 3D-gedruckten Kern bis zum laminierten und geschliffenen Carbon-Teil.",
+    "kapitel_slug": "realisierung",
+    "sektion_id": "realisierung#frontwing"
+  }
+]

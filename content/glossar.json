@@ -1,0 +1,199 @@
+[
+  {
+    "begriff": "Hydrofoil",
+    "definition": "Eine hydrodynamische Tragfläche, die unter einem Surfboard montiert wird und bei einer gewissen Geschwindigkeit Auftrieb erzeugt, sodass sich das Board von der Wasseroberfläche abhebt. Dadurch sinkt der Wasserwiderstand und das Foil geht in eine Gleitphase über.",
+    "kategorie": "physik",
+    "erstes_auftreten_kapitel_slug": "einleitung",
+    "siehe_auch": [
+      "Foiling",
+      "Frontwing",
+      "Backwing"
+    ]
+  },
+  {
+    "begriff": "Foiling",
+    "definition": "Das Fahren auf einem Hydrofoil, bei dem der Rumpf des Boards aus dem Wasser angehoben ist und nur noch Mast und Foil Wasserkontakt haben.",
+    "kategorie": "sportart",
+    "erstes_auftreten_kapitel_slug": "einleitung"
+  },
+  {
+    "begriff": "Wingfoiling",
+    "definition": "Eine Wassersportart, bei der das Foiling-Prinzip mit einem aufblasbaren Flügel (Wing) kombiniert wird, den der Fahrer mit den Händen hält, um sich durch den Wind antreiben zu lassen.",
+    "kategorie": "sportart",
+    "erstes_auftreten_kapitel_slug": "einleitung",
+    "siehe_auch": [
+      "Foiling",
+      "Hydrofoil"
+    ]
+  },
+  {
+    "begriff": "Frontwing",
+    "definition": "Der vordere, grössere Tragflügel des Hydrofoils. Er erzeugt den Hauptauftrieb und bestimmt primär die Fahreigenschaften des Foils.",
+    "kategorie": "komponente",
+    "erstes_auftreten_kapitel_slug": "einleitung",
+    "siehe_auch": [
+      "Backwing",
+      "Fuselage",
+      "NACA-Profil"
+    ]
+  },
+  {
+    "begriff": "Backwing",
+    "definition": "Der hintere, kleinere Stabilisator. Er ist meist negativ angestellt und liefert das Gegendrehmoment für die Pitch-Stabilität, stabilisiert also die Längsachse des Foils.",
+    "kategorie": "komponente",
+    "erstes_auftreten_kapitel_slug": "informationsbeschaffung",
+    "siehe_auch": [
+      "Frontwing",
+      "Pitch-Stabilität"
+    ]
+  },
+  {
+    "begriff": "Fuselage",
+    "definition": "Das Verbindungselement zwischen Frontwing, Backwing und Mast. Sie vereint alle Komponenten und ist daher ein essenzielles Bauteil des Hydrofoils. Im Projekt wurde sie aus Aluminium CNC-gefräst.",
+    "kategorie": "komponente",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "Adapterstück",
+      "CNC"
+    ]
+  },
+  {
+    "begriff": "Adapterstück",
+    "definition": "Ein selbst entwickeltes Verbindungsstück, das es ermöglicht, einen Axis-Mast auf eine Duotone-Fuselage zu montieren. Eine Lösung, die so nicht auf dem Markt erhältlich ist.",
+    "kategorie": "komponente",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "Fuselage"
+    ]
+  },
+  {
+    "begriff": "Pressform",
+    "definition": "Zweiteilige Negativform, in der die Carbon-Bauteile unter Druck laminiert und ausgehärtet werden. Im Projekt wurden die Pressformen mittels 3D-Druck aus ABS und PETG hergestellt.",
+    "kategorie": "fertigung",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "CFK",
+      "Laminat-Layup",
+      "Pressverfahren"
+    ]
+  },
+  {
+    "begriff": "Pressverfahren",
+    "definition": "Fertigungsverfahren mit zweiteiliger Negativform. Durch den Druck beim Schliessen der Form wird überschüssiges Harz aus dem Laminat gedrückt, was den Faseranteil und damit die mechanischen Eigenschaften erhöht.",
+    "kategorie": "fertigung",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "Pressform",
+      "Laminat-Layup"
+    ]
+  },
+  {
+    "begriff": "CFK",
+    "definition": "Carbonfaserverstärkter Kunststoff. Werkstoff aus Kohlenstoff-Fasern in einer Epoxidharz-Matrix. Bietet hohe spezifische Festigkeit und Steifigkeit bei geringem Gewicht.",
+    "kategorie": "material",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "Laminat-Layup"
+    ]
+  },
+  {
+    "begriff": "Laminat-Layup",
+    "definition": "Das Aufschichten mehrerer Faserlagen in unterschiedlichen Richtungen. Im Projekt: aussen Glasgewebe, dann Carbongewebe, UD-Gelege (eine Richtung) und Biax-Gelege (zwei Richtungen), um Steifigkeit und Torsionswiderstand gezielt einzustellen.",
+    "kategorie": "fertigung",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "CFK",
+      "Pressform"
+    ]
+  },
+  {
+    "begriff": "NACA-Profil",
+    "definition": "Eine standardisierte Profilform für Tragflächen. Im Projekt wurde ein NACA 2412 gewählt, das aufgrund seiner Wölbung bereits bei kleinen Anstellwinkeln Auftrieb erzeugt und ein frühes Abheben ermöglicht.",
+    "kategorie": "physik",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "Frontwing",
+      "Aspect Ratio"
+    ]
+  },
+  {
+    "begriff": "Aspect Ratio",
+    "definition": "Das Seitenverhältnis eines Flügels: Spannweite im Quadrat geteilt durch die Fläche. Eine kleine AR (< 5) bietet Stabilität und früheres Abheben, eine hohe AR (> 7) bessere Geschwindigkeit und Gleiten. Der Frontwing hat eine AR von 8.1.",
+    "kategorie": "physik",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "NACA-Profil"
+    ]
+  },
+  {
+    "begriff": "Gleitzahl",
+    "definition": "Das Verhältnis von Auftriebs- zu Widerstandsbeiwert. Eine hohe Gleitzahl bedeutet, dass das Foil länger gleiten kann. Ein Hydrofoil hat ca. eine Gleitzahl von 8.",
+    "kategorie": "physik",
+    "erstes_auftreten_kapitel_slug": "informationsbeschaffung"
+  },
+  {
+    "begriff": "Pitch-Stabilität",
+    "definition": "Die Stabilität in Längsrichtung des Foils. Sie verhindert das Nicken um die Querachse. Der Backwing liefert das Gegendrehmoment dafür.",
+    "kategorie": "physik",
+    "erstes_auftreten_kapitel_slug": "informationsbeschaffung",
+    "siehe_auch": [
+      "Backwing"
+    ]
+  },
+  {
+    "begriff": "CNC",
+    "definition": "Computerized Numerical Control. Computergesteuerte Werkzeugmaschinen, die mit hoher Präzision Material abtragen. Fuselage und Adapterstück wurden auf 5-Achs-CNC-Fräsmaschinen aus Aluminium gefertigt.",
+    "kategorie": "fertigung",
+    "erstes_auftreten_kapitel_slug": "realisierung",
+    "siehe_auch": [
+      "Fuselage",
+      "Adapterstück"
+    ]
+  },
+  {
+    "begriff": "Shape3DX",
+    "definition": "Eine CAD-Software, die speziell für die Modellierung von Surfbrettern entwickelt wurde. Mit der Slice-Funktion lassen sich NACA-Profile einfügen und 2D-Skizzen in 3D-Modelle überführen. Im Projekt für Front- und Backwing genutzt.",
+    "kategorie": "software",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "NACA-Profil"
+    ]
+  },
+  {
+    "begriff": "Helicoil",
+    "definition": "Ein Gewindeeinsatz aus Draht, der in Aluminiumbauteile eingesetzt wird. Er bietet höhere Festigkeit und verhindert, dass Aluminiumgewinde bei häufigem Montieren und Demontieren verschleissen.",
+    "kategorie": "fertigung",
+    "erstes_auftreten_kapitel_slug": "realisierung",
+    "siehe_auch": [
+      "Fuselage"
+    ]
+  },
+  {
+    "begriff": "Eloxieren",
+    "definition": "Ein elektrochemisches Verfahren, das eine schützende Oxidschicht auf Aluminium erzeugt. Fuselage und Adapterstück wurden schwarz eloxiert, was sie vor Korrosion und Kratzern schützt und optisch zum Design passt.",
+    "kategorie": "fertigung",
+    "erstes_auftreten_kapitel_slug": "realisierung"
+  },
+  {
+    "begriff": "ABS",
+    "definition": "Ein kratzfestes, hartes 3D-Druck-Filament, das formstabil ist und höhere Temperaturen verträgt. Im Projekt für den Kern und einen Teil der Pressformen verwendet, neigt bei grossen Teilen jedoch zu Verzug.",
+    "kategorie": "material",
+    "erstes_auftreten_kapitel_slug": "planung"
+  },
+  {
+    "begriff": "PETG",
+    "definition": "Ein 3D-Druck-Filament mit guter Kombination aus Festigkeit, Flexibilität und Verarbeitbarkeit. Verzieht sich weniger als ABS und haftet besser auf dem Druckbett. Für die Frontwing-Pressform genutzt.",
+    "kategorie": "material",
+    "erstes_auftreten_kapitel_slug": "planung"
+  },
+  {
+    "begriff": "Fusion 360",
+    "definition": "Eine CAD-Software von Autodesk, die kostenlos für private Projekte verfügbar ist. Im Projekt für Fuselage, Adapterstück, die Verbindungen der Wings und die Pressformen-Konstruktion verwendet.",
+    "kategorie": "software",
+    "erstes_auftreten_kapitel_slug": "planung",
+    "siehe_auch": [
+      "Shape3DX",
+      "CAD"
+    ]
+  }
+]

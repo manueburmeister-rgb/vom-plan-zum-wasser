@@ -1,0 +1,74 @@
+[
+  {
+    "id": "einleitung",
+    "nummer": 1,
+    "titel": "Einleitung",
+    "kurzbeschreibung": "Themenwahl, Ziele und Grundlagen des Hydrofoils.",
+    "zeitraum": "Okt 2025",
+    "icon": "Compass",
+    "akzentfarbe": "cyan",
+    "kapitel_slugs": [
+      "einleitung"
+    ]
+  },
+  {
+    "id": "informationsbeschaffung",
+    "nummer": 2,
+    "titel": "Informationsbeschaffung",
+    "kurzbeschreibung": "Recherche zu Physik und Materialien, Expertengespräch mit Michael Näf.",
+    "zeitraum": "Okt – Nov 2025",
+    "icon": "BookOpen",
+    "akzentfarbe": "cyan",
+    "kapitel_slugs": [
+      "informationsbeschaffung"
+    ]
+  },
+  {
+    "id": "planung",
+    "nummer": 3,
+    "titel": "Planung & CAD",
+    "kurzbeschreibung": "Konstruktion der Komponenten in Shape3DX und Fusion 360, Material- und Verfahrensentscheid.",
+    "zeitraum": "Nov 2025 – Jan 2026",
+    "icon": "Ruler",
+    "akzentfarbe": "cyan",
+    "kapitel_slugs": [
+      "planung"
+    ]
+  },
+  {
+    "id": "realisierung",
+    "nummer": 4,
+    "titel": "Realisierung",
+    "kurzbeschreibung": "Fertigung von Pressformen, Kern, Carbon-Wings und CNC-Teilen.",
+    "zeitraum": "Jan – Apr 2026",
+    "icon": "Wrench",
+    "akzentfarbe": "cyan",
+    "kapitel_slugs": [
+      "realisierung"
+    ]
+  },
+  {
+    "id": "praxistest",
+    "nummer": 5,
+    "titel": "Praxistest",
+    "kurzbeschreibung": "Erster Wassertest am Urnersee bei Flüelen, Vergleich mit Duotone-Modellen.",
+    "zeitraum": "26. April 2026",
+    "icon": "Waves",
+    "akzentfarbe": "cyan",
+    "kapitel_slugs": [
+      "praxistest"
+    ]
+  },
+  {
+    "id": "schlusswort",
+    "nummer": 6,
+    "titel": "Schlusswort",
+    "kurzbeschreibung": "Zusammenfassung, Reflexion und Ausblick.",
+    "zeitraum": "Mai 2026",
+    "icon": "Flag",
+    "akzentfarbe": "cyan",
+    "kapitel_slugs": [
+      "schlusswort"
+    ]
+  }
+]

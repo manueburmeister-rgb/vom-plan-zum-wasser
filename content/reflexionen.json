@@ -1,0 +1,58 @@
+[
+  {
+    "id": "zusammenarbeit",
+    "titel": "Gute Zusammenarbeit dank unterschiedlicher Hintergründe",
+    "inhalt": "Durch unsere lange Freundschaft war uns bereits im Vorhinein klar, dass die Zusammenarbeit während des gesamten Projekts gut funktionieren würde. Da wir beide unterschiedliche berufliche Hintergründe haben, konnten wir unsere Stärken gut kombinieren. Vor allem bei der Konstruktion, Fertigung und Problemlösung ergänzten wir uns gegenseitig.",
+    "kategorie": "erfolg",
+    "kapitel_slug": "schlusswort",
+    "sortierung": 1
+  },
+  {
+    "id": "adapterstueck-marktluecke",
+    "titel": "Eine Lösung, die es so nicht auf dem Markt gibt",
+    "inhalt": "Es gelang uns, ein eigenes Adapterstück zwischen zwei verschiedenen Foil-Systemen zu entwickeln. Dadurch entstand eine Lösung, welche aktuell so nicht auf dem Markt erhältlich ist. Wir haben unser Hauptziel erreicht, ein eigenes funktionierendes Hydrofoil zu entwickeln.",
+    "kategorie": "erfolg",
+    "kapitel_slug": "schlusswort",
+    "sortierung": 2
+  },
+  {
+    "id": "zeitaufwand-planung",
+    "titel": "Planung und Zeitreserven unterschätzt",
+    "inhalt": "Während des Projekts merkten wir, wie wichtig eine gute Planung und genügend Zeitreserven sind. Viele Arbeitsschritte, besonders die CAD-Konstruktion, der 3D-Druck und die Herstellung der Pressformen, benötigten deutlich mehr Zeit als ursprünglich gedacht.",
+    "kategorie": "herausforderung",
+    "kapitel_slug": "schlusswort",
+    "sortierung": 3
+  },
+  {
+    "id": "verzug-3d-druck",
+    "titel": "Verzug beim 3D-Druck der grossen Pressformen",
+    "inhalt": "Beim Druck der grossen Formteile kam es sowohl bei ABS als auch bei PETG zu starkem Verzug, da sich die grossen Bauteile während des Druckens durch Temperaturunterschiede verformten. Wir mussten auf neuere 3D-Drucker ausweichen und teilweise auf zwei Druckern gleichzeitig arbeiten.",
+    "kategorie": "herausforderung",
+    "kapitel_slug": "schlusswort",
+    "sortierung": 4
+  },
+  {
+    "id": "flexibel-bleiben",
+    "titel": "Flexibel bleiben zahlt sich aus",
+    "inhalt": "Wir lernten während der Planung, wie wichtig es ist, flexibel zu bleiben. Nicht jede erste Idee funktioniert später auch in der Praxis. Teilweise mussten wir unsere ursprünglichen Vorstellungen anpassen oder komplett überdenken. Genau diese Flexibilität half uns schlussendlich dabei, sinnvolle Lösungen zu finden.",
+    "kategorie": "lesson_learned",
+    "kapitel_slug": "schlusswort",
+    "sortierung": 5
+  },
+  {
+    "id": "vielfalt-techniken",
+    "titel": "Abwechslungsreiche Kombination vieler Techniken",
+    "inhalt": "Besonders die Kombination aus CAD, 3D-Druck, Carbon-Laminieren und CNC-Fertigung machte das Projekt sehr abwechslungsreich und spannend. Neben neuen technischen und handwerklichen Fähigkeiten lernten wir auch, Probleme selbstständig zu lösen und über längere Zeit an einem grossen Projekt dranzubleiben.",
+    "kategorie": "lesson_learned",
+    "kapitel_slug": "schlusswort",
+    "sortierung": 6
+  },
+  {
+    "id": "gewicht-pitch-optimierung",
+    "titel": "Gewicht und Pitch-Stabilität optimieren",
+    "inhalt": "Rückblickend würden wir vor allem die Fuselage noch stärker auf Gewichtsoptimierung auslegen und die Toleranzen bei gewissen Passungen teilweise kleiner wählen. Mit weiteren Optimierungen, vor allem in Bezug auf Gewicht und Pitch-Stabilität, könnte das Fahrverhalten in Zukunft nochmals deutlich verbessert werden.",
+    "kategorie": "ausblick",
+    "kapitel_slug": "schlusswort",
+    "sortierung": 7
+  }
+]

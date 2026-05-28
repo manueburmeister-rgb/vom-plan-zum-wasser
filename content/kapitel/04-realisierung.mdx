@@ -1,0 +1,85 @@
+import { SektionGalerie } from '@/components/chapter/SektionGalerie'
+
+<h2 id="pressformen">2.3.1 Pressformen</h2>
+
+Die Formen wurden mit einem 3D-Drucker aus ABS und PETG hergestellt. Zu Beginn des Projekts planten wir, alle Formen aus ABS zu drucken, da dieses Material sehr temperaturbeständig und formstabil ist und sich gut nachbearbeiten lässt. Zudem hatten wir bereits gute Erfahrungen mit ABS gesammelt, allerdings bisher nur bei kleineren Bauteilen.
+
+Wir starteten mit der Herstellung der Backwing-Mold. Dabei wurde der Druckprozess jedoch stark verzögert, da es bei den grossen Druckteilen zu starkem Verzug kam. ABS reagiert sehr empfindlich auf Temperaturschwankungen, wodurch sich die grossen Bauteile während des Druckens teilweise verformten. Das Problem war, dass sich aufgrund der Grösse des Bauteils der untere Teil trotz geschlossenem Bauraum bereits stark abkühlte, während der obere Teil noch heiss war.
+
+Aus diesem Grund entschieden wir uns bei der Frontwing-Mold für PETG, da dieses Material laut Erfahrungsberichten weniger anfällig auf Verzug sein soll. In der Praxis zeigte sich jedoch, dass auch bei PETG der Verzug bei Bauteilen dieser Grösse immer noch ein grosses Problem darstellte. Was sich jedoch deutlich verbesserte, war die Haftung zwischen den einzelnen Layern. Dadurch entstanden deutlich weniger Risse und die Bauteile waren insgesamt stabiler.
+
+Trotz der Änderung des Filaments merkten wir, dass unser 3D-Drucker Creality Ender 6 Pro unseren Anforderungen nicht vollständig gewachsen war, da es sich bereits um ein älteres Modell handelt und dieser nur begrenzte Drucktemperaturen erreichen kann. Deshalb wichen wir auf neuere und technisch besser entwickelte 3D-Drucker von Freunden aus. Teilweise druckten wir auf zwei Druckern gleichzeitig, da die Druckzeit eines einzelnen Formteils durchschnittlich bei ungefähr 24 Stunden lag.
+
+Nach dem Druck wurden die Formen mechanisch nachbearbeitet. Dies umfasste insbesondere das Schleifen der Oberflächen sowie das Verrunden von Kanten. Auf der Drehbank drehten wir die zuvor 3D-gedruckten Stifte ab und klebten sie in die Form ein. Diese dienten beim Laminierprozess als Platzhalter, damit am späteren Carbonteil die Löcher entstanden, um die Schrauben durchführen zu können. Ein weiterer wichtiger Schritt war die Oberflächenbehandlung: Damit das Carbonteil später nicht an der Form haftet, benutzten wir einen speziellen Trennschichtlack, welcher die Oberfläche zusätzlich glättete. Diesen Vorgang wiederholten wir dreimal, um sicherzustellen, dass wirklich alle Poren geschlossen wurden.
+
+<SektionGalerie sektionId="realisierung#pressformen" />
+
+<h2 id="kern">2.3.2 Kern</h2>
+
+Aufgrund der Grösse des Frontwings stellten wir einen 3D-gedruckten Kern aus ABS her. Wir berechneten den Kern so, dass er ungefähr 80 % des gesamten Frontwing-Volumens einnimmt, wodurch dieser später nur noch mit einer etwa 2 mm dicken Carbon-Schicht ummantelt wird. So stellten wir sicher, dass der Frontwing trotzdem genügend stabil bleibt, da Carbon auch bei relativ kleinen Materialstärken eine hohe Festigkeit aufweist. Zusätzlich konnten wir durch diese Bauweise sowohl Gewicht als auch eine grosse Menge des teuren Carbonmaterials einsparen.
+
+Der Kern besteht insgesamt aus 13 Einzelteilen. Dazu gehören acht Verstiftungen, zwei Verbindungskeile sowie die drei eigentlichen Frontwing-Teile. Da die Spannweite des Kerns bei ungefähr 800 mm liegt, waren wir gezwungen, den Kern in mehrere Teile aufzuteilen, damit dieser mit unserem vorhandenen 3D-Drucker hergestellt werden konnte. Theoretisch wäre auch eine Unterteilung in nur zwei Teile möglich gewesen. Dagegen entschieden wir uns jedoch bewusst, da sich die Trennstelle genau im Bereich der Fuselageaufnahme befunden hätte, wodurch die Stabilität in diesem stark belasteten Bereich deutlich reduziert worden wäre.
+
+Nach dem Druck wurden die einzelnen Teile nachbearbeitet. Die Steckverbindungen passten wir mit Schleifpapier an und die Bohrungen für die Verstiftungen wurden zusätzlich aufgebohrt. Um eine möglichst stabile Verbindung zu erreichen, setzten wir auf doppelte Sicherheit: Zusätzlich zu den mechanischen Verbindungen verklebten wir die einzelnen Teile mit einem selbst hergestellten ABS-Aceton-Kleber.
+
+<SektionGalerie sektionId="realisierung#kern" />
+
+<h2 id="backwing">2.3.3 Backwing</h2>
+
+Die Herstellung des Backwings diente gleichzeitig als Testobjekt zur Überprüfung des gewählten Fertigungsverfahrens. Aufgrund seiner kleineren Abmessungen im Vergleich zum Frontwing eignete er sich besonders gut, um erste Erfahrungen im Umgang mit den Materialien sowie dem Laminierverfahren zu sammeln.
+
+Im Vergleich zum Frontwing gibt es beim Backwing zwei Unterschiede in der Herstellung. Beim Backwing haben wir auf Metallstifte zur Zentrierung verzichtet und die Zentrierung direkt in die Pressform eingedruckt. Das hatte den Vorteil, dass wir keinen zusätzlichen Aufwand für die Stifte hatten und die beiden Formhälften trotzdem präzise aufeinanderlagen. Der zweite Unterschied ist, dass wir beim Backwing keinen 3D-gedruckten Kern verwendet haben. Stattdessen haben wir nach den normalen Faserlagen in der Mitte noch kleinere Carbonfaserreste eingelegt, um den Wing vollständig auszufüllen und Hohlräume zu vermeiden.
+
+Wir haben gemerkt, dass man beim Auftragen des Harzes sehr sparsam sein muss und wie wichtig es ist, alle Luftblasen wirklich sorgfältig herauszudrücken. Diese Erfahrungen haben wir direkt in die Herstellung des Frontwings mitgenommen.
+
+<Vergleich id="backwing-cad-vs-fertig" />
+
+<SektionGalerie sektionId="realisierung#backwing" />
+
+<h2 id="frontwing">2.3.4 Frontwing</h2>
+
+Nun konnte mit der eigentlichen Herstellung des Frontwings begonnen werden. Die Carbonfasern haben wir anhand einer Zeichnung des Frontwings zugeschnitten. Der Lagenaufbau war folgender: Als äusserste Schicht wurden zwei Lagen Glasgewebe 92110 mit 163 g/m² eingelegt, damit beim späteren Bearbeiten nicht die Carbonschicht zerstört wird. Darauf folgte eine Lage Carbongewebe mit 240 g/m², welche die sichtbare Schicht des Flügels bildet. Als dritte Schicht wurden vier Lagen Carbongelege UD 125 g/m² eingelegt, bei dem alle Fasern in eine Richtung verlaufen. Als vierte und innerste Schicht wurden zwei Lagen Carbongelege Biax 220 g/m² verwendet, dessen Fasern in zwei Richtungen (±45°) verlaufen.
+
+Dann haben wir die Pressformen mit SCS PVA Folientrennmittel eingestrichen und anschliessend mit OSKAR's M-710 Mould Release Paste Wax eingeschmiert. Als erstes haben wir die äusserste Lage Glasfaser hineingelegt und darauf das Gemisch aus Epoxidharz und Härter mit einem Pinsel aufgetragen. Das Schwierige dabei war, beim Streichen alle Luftblasen hinauszudrücken und gleichzeitig darauf zu achten, dass sich die Fasern auf der gegenüberliegenden Seite nicht ablösen. Diesen Vorgang haben wir Lage für Lage wiederholt, bis alle Schichten eingelegt und mit Harz getränkt waren.
+
+Auf die untere Form haben wir den 3D-gedruckten Kern eingelegt. Mit kleinen Carbonfaserresten haben wir die Zwischenräume rund um die Stäbe gestopft, damit der Kern nicht verrutschen kann und keine Luftblasen in den kleinen Hohlräumen entstehen. Diese beiden Formhälften haben wir dann aufeinandergelegt, wobei die Metallstifte eine präzise Positionierung ermöglichten. Damit das überschüssige Harz austreten kann und der Wing seine effektive Form erhält, haben wir die Pressform mit zwei Holzbrettern und mehreren Schraubzwingen zusammengepresst. Die Form liessen wir ca. 48 Stunden stehen.
+
+Dann kam das grosse Pack Opening. Als wir alle Schraubzwingen entfernt und die Metallstifte herausgeschlagen hatten, liess sich die Form jedoch noch nicht öffnen. Mit einem Spatel und einem Hammer konnten wir aber vorsichtig zwischen die zwei Pressformen fahren und die obere Hälfte von der unteren trennen. Das Ergebnis war ein wunderbarer Frontwing, jedoch war an den Seiten und Enden noch viel ausgetretenes Harz sichtbar.
+
+Zuerst haben wir die überstehenden Kanten mit der Schere grob nachgeschnitten und anschliessend mit einer Laubsäge nah an der effektiven Wingkante entlang zugesägt. Ab da haben wir mit Schleifpapier weitergearbeitet und den Wing in die gewünschte Form gebracht. Auftretende Poren wurden mit Epoxidspachtel gefüllt und anschliessend erneut geschliffen. Das Schleifen dauerte allerdings deutlich länger als erwartet, da das Schleifpapier sehr schnell verstopfte. Den Frontwing haben wir an einem Faden aufgehängt und mit dem 2K-Lack eingesprüht. Somit war der Frontwing bereit für seinen ersten Test im Wasser.
+
+<Vergleich id="frontwing-cad-vs-fertig" />
+
+<SektionGalerie sektionId="realisierung#frontwing" />
+
+<h2 id="fuselage">2.3.5 Fuselage</h2>
+
+Für uns war eigentlich von Anfang an klar, dass wir die Fuselage aus Aluminium herstellen werden. Eine Carbon-Fuselage hätte den Rahmen unserer Projektarbeit gesprengt. Zusätzlich sind die Anforderungen an Präzision und Stabilität bei diesem Bauteil deutlich höher als bei den Wings. Da Manue seine Berufslehre als Polymechaniker bei der Victorinox AG absolvierte und bereits Erfahrung mit CNC-Maschinen sammeln konnte, war relativ schnell klar, dass wir die Fuselage CNC-fräsen lassen möchten.
+
+Durch die Kontakte zur Victorinox AG konnten wir die Herstellung der Fuselage überhaupt erst realisieren. Nach Rücksprache mit Manues ehemaligem Chef Michael Barmettler wurde abgeklärt, ob eine Fertigung bei Victorinox grundsätzlich möglich wäre. Anschliessend konnten wir gemeinsam mit einem ehemaligen Arbeitskollegen, Silvan Vonäsch, das CAM-Programm in der Freizeit erstellen. Dabei mussten noch einige kleinere Anpassungen am CAD-Modell vorgenommen werden, damit die Fuselage fertigungstechnisch sinnvoll umgesetzt werden konnte.
+
+Die Fuselage wurde schlussendlich aus einem Aluminiumblock auf einer 5-Achs-CNC-Fräsmaschine hergestellt. Da die reine Fräszeit ungefähr sechseinhalb Stunden betrug, musste die Herstellung über einen offiziellen Auftrag abgewickelt werden. Das Aluminium-Rohmaterial konnte ebenfalls direkt über Victorinox bestellt werden. Zusätzlich hatten wir die Möglichkeit, die Fuselage in der hauseigenen Eloxiererei schwarz eloxieren zu lassen. Durch das Eloxieren entsteht eine schützende Oxidschicht auf der Oberfläche, welche das Material besser vor Korrosion, Kratzern und äusseren Einflüssen schützt.
+
+Nach der CNC-Fertigung übernahmen wir selbst verschiedene Finish-Arbeiten. Unter anderem montierten wir die Helicoils von Hand mit Spezialwerkzeug. Diese verwendeten wir, da Aluminiumgewinde bei häufigem Montieren und Demontieren relativ schnell verschleissen können. Zusätzlich weisen Helicoil-Gewinde eine höhere Festigkeit auf, was besonders in diesem stark belasteten Bereich von Vorteil ist.
+
+<Vergleich id="fuselage-cad-vs-eloxiert" />
+
+<SektionGalerie sektionId="realisierung#fuselage" />
+
+<h2 id="adapterstueck">2.3.6 Adapterstück</h2>
+
+Da auf das Adapterstück hohe Kräfte wirken, entschieden wir uns bewusst gegen eine Herstellung mit dem 3D-Drucker. Ein Kunststoffbauteil wäre in diesem stark belasteten Bereich langfristig zu wenig stabil gewesen. Trotzdem druckten wir zuerst einen Prototyp aus ABS, um die Passgenauigkeit der Schnittstellen und Verbindungen zu überprüfen. Dieser Zwischenschritt erwies sich als sehr sinnvoll, da mögliche Fehler so bereits vor der aufwendigen CNC-Fertigung erkannt und korrigiert werden konnten.
+
+Das Adapterstück wurde ebenfalls bei der Victorinox AG hergestellt. Das Rohmaterial konnten wir direkt über Victorinox bestellen und anschliessend aus einem vollen Aluminiumblock fräsen lassen. Die Fertigung erfolgte auf einer kleineren 5-Achs-CNC-Fräsmaschine. Im Vergleich zur Fuselage war das Adapterstück deutlich weniger aufwendig herzustellen. Die reine Fräszeit betrug ungefähr zwei Stunden.
+
+Nach der Fertigung übernahmen wir selbst noch kleinere Finish-Arbeiten. Dabei entgrateten wir einzelne scharfe Kanten von Hand und kontrollierten die Passgenauigkeit der verschiedenen Schnittstellen. Ansonsten kam das Bauteil bereits sehr sauber aus der Maschine. Anschliessend wurde das Adapterstück aus denselben Gründen ebenfalls schwarz eloxiert.
+
+<Vergleich id="adapterstueck-cad-vs-fertig" />
+
+<SektionGalerie sektionId="realisierung#adapterstueck" />
+
+<h2 id="fazit">2.3.7 Fazit</h2>
+
+Die Realisierung unseres Hydrofoils war der aufwendigste, aber gleichzeitig auch der lehrreichste Teil der gesamten Projektarbeit. Besonders beim 3D-Druck der grossen Pressformen sowie beim Laminieren sammelten wir viele neue praktische Erfahrungen. Durch das schrittweise Vorgehen und Herstellen von Prototypen konnten wir Fehler früh erkennen und unsere Arbeitsweise laufend verbessern. Vor allem der Backwing als erstes Testbauteil half uns dabei sehr.
+
+Rückblickend würden wir heute vor allem die Fuselage noch stärker auf Gewichtsoptimierung auslegen und die Toleranzen bei gewissen Passungen teilweise kleiner wählen. Trotzdem sind wir mit dem Endergebnis sehr zufrieden, da wir ein funktionierendes Hydrofoil herstellen konnten und während des Projekts sehr viel Neues gelernt haben.

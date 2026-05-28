@@ -1,0 +1,66 @@
+[
+  {
+    "id": "entwicklungszeit",
+    "wert": "8",
+    "einheit": "Monate",
+    "bezeichnung": "Entwicklungszeit (Okt 2025 – Mai 2026)",
+    "icon": "Calendar",
+    "sortierung": 1
+  },
+  {
+    "id": "frontwing-flaeche",
+    "wert": "1000",
+    "einheit": "cm²",
+    "bezeichnung": "Frontwing-Fläche",
+    "icon": "Ruler",
+    "sortierung": 2
+  },
+  {
+    "id": "spannweite",
+    "wert": "900",
+    "einheit": "mm",
+    "bezeichnung": "Spannweite Frontwing",
+    "icon": "Ruler",
+    "sortierung": 3
+  },
+  {
+    "id": "aspect-ratio",
+    "wert": "8.1",
+    "einheit": "AR",
+    "bezeichnung": "Aspect Ratio",
+    "icon": "Gauge",
+    "sortierung": 4
+  },
+  {
+    "id": "carbon-lagen",
+    "wert": "18",
+    "einheit": "Lagen",
+    "bezeichnung": "Faserlagen im Frontwing (9 pro Hälfte)",
+    "icon": "Layers",
+    "sortierung": 5
+  },
+  {
+    "id": "kern-teile",
+    "wert": "13",
+    "einheit": "Teile",
+    "bezeichnung": "Einzelteile im 3D-Kern",
+    "icon": "Cpu",
+    "sortierung": 6
+  },
+  {
+    "id": "fraeszeit-fuselage",
+    "wert": "6.5",
+    "einheit": "Std",
+    "bezeichnung": "CNC-Fräszeit Fuselage",
+    "icon": "RotateCw",
+    "sortierung": 7
+  },
+  {
+    "id": "naca-profil",
+    "wert": "2412",
+    "einheit": "NACA",
+    "bezeichnung": "Gewähltes Flügelprofil",
+    "icon": "Compass",
+    "sortierung": 8
+  }
+]

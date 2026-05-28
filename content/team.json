@@ -1,0 +1,20 @@
+[
+  {
+    "id": "manue",
+    "vorname": "Manue",
+    "nachname": "Burmeister",
+    "rolle": "Polymechaniker",
+    "foto_dateiname": "manue.jpg",
+    "kurz_bio": "Gelernter Polymechaniker mit Erfahrung an CNC-Maschinen aus seiner Berufslehre bei der Victorinox AG. Hat bereits etwas Erfahrung im Wingfoilen gesammelt und brachte das handwerkliche und fertigungstechnische Know-how ins Projekt ein.",
+    "sortierung": 1
+  },
+  {
+    "id": "dimitri",
+    "vorname": "Dimitri",
+    "nachname": "Mühlebach",
+    "rolle": "Zeichner Fachrichtung Architektur",
+    "foto_dateiname": "dimitri.jpg",
+    "kurz_bio": "Gelernter Zeichner Fachrichtung Architektur. Steht im Wingfoilen noch am Anfang, brachte aber seine Erfahrung im Konstruieren und in der CAD-Arbeit ins Projekt ein.",
+    "sortierung": 2
+  }
+]

@@ -1,0 +1,490 @@
+{
+  "_kommentar": "Auto + manuell: Sortierung (Arbeitsablauf aus der schriftlichen Arbeit) und saubere Bildunterschriften. Keys mit '_' werden ignoriert.",
+  "_schema": {
+    "sortierung": "integer (kleiner = frueher)",
+    "bildunterschrift": "string",
+    "alt_text": "string",
+    "ausblenden": "boolean",
+    "ist_hero_kapitel": "string"
+  },
+  "komplettes-foil-in-cad-andere-ansicht": {
+    "sortierung": 10,
+    "bildunterschrift": "Komplettes Foil als CAD-Modell, Seitenansicht"
+  },
+  "cad-komplette-baugruppe-von-foil-zusammengebaut": {
+    "sortierung": 20,
+    "bildunterschrift": "Komplette Baugruppe des Foils im CAD zusammengebaut"
+  },
+  "dimitri-am-pc-konstruiert-frontwing-in-shape": {
+    "sortierung": 10,
+    "bildunterschrift": "Dimitri konstruiert den Frontwing in Shape3DX"
+  },
+  "frontwing-draufsicht-in-shape": {
+    "sortierung": 20,
+    "bildunterschrift": "Frontwing, Grundriss in Shape3DX"
+  },
+  "frontwing-naca-profil-in-shape": {
+    "sortierung": 30,
+    "bildunterschrift": "NACA-Profil des Frontwings in Shape3DX"
+  },
+  "frontwing-in-shape-frontansicht": {
+    "sortierung": 40,
+    "bildunterschrift": "Frontwing, Frontansicht in Shape3DX"
+  },
+  "frontwing-in-shape-3d-modell": {
+    "sortierung": 50,
+    "bildunterschrift": "Frontwing als 3D-Modell in Shape3DX"
+  },
+  "backwing-2d-zeichnung-in-shape3dx-draufsicht": {
+    "sortierung": 10,
+    "bildunterschrift": "Backwing, 2D-Zeichnung (Draufsicht) in Shape3DX"
+  },
+  "backwing-in-shape3dx-3dmodell": {
+    "sortierung": 20,
+    "bildunterschrift": "Backwing als 3D-Modell in Shape3DX"
+  },
+  "fuselage-in-cad-zusehen": {
+    "sortierung": 10,
+    "bildunterschrift": "Fuselage im CAD-Modell (Fusion 360)"
+  },
+  "fuselage-in-cad-andere-ansicht": {
+    "sortierung": 20,
+    "bildunterschrift": "Fuselage im CAD, andere Ansicht"
+  },
+  "technische-zeichnung-von-fuselage": {
+    "sortierung": 30,
+    "bildunterschrift": "Technische Zeichnung der Fuselage"
+  },
+  "adapterstueck-von-axis-welches-bei-axismast-von-werk-aus-benutzt-wird": {
+    "sortierung": 10,
+    "bildunterschrift": "Original Axis-Verbindungsstück als Vorlage"
+  },
+  "adapterstueck-in-cad-1": {
+    "sortierung": 20,
+    "bildunterschrift": "Adapterstück im CAD-Modell (Fusion 360)"
+  },
+  "adapterstueck-in-cad-2": {
+    "sortierung": 30,
+    "bildunterschrift": "Adapterstück im CAD, weitere Ansicht"
+  },
+  "adapterstueck": {
+    "sortierung": 40,
+    "bildunterschrift": "Adapterstück, CAD-Ansicht"
+  },
+  "harzrille-von-backwingmold-konstruieren": {
+    "sortierung": 10,
+    "bildunterschrift": "Harzrille der Backwing-Form im CAD konstruieren"
+  },
+  "backwing-mold-in-cad-offen-eine-seite-zusehen": {
+    "sortierung": 20,
+    "bildunterschrift": "Backwing-Form im CAD, geöffnet (eine Seite)"
+  },
+  "backwingmold-in-cad-andere-seite": {
+    "sortierung": 30,
+    "bildunterschrift": "Backwing-Form im CAD, andere Seite"
+  },
+  "backwingmold-in-cad-schnittstelle-zu-fuselage-nahaufnahme": {
+    "sortierung": 40,
+    "bildunterschrift": "Backwing-Form im CAD, Schnittstelle zur Fuselage (Nahaufnahme)"
+  },
+  "frontwing-mold-in-cad-geoeffnet-nur-eine-1.seite-zusehen": {
+    "sortierung": 50,
+    "bildunterschrift": "Frontwing-Form im CAD, geöffnet (eine Seite)"
+  },
+  "frontwing-mol-in-cad-offen-andere-seite-zusehen": {
+    "sortierung": 60,
+    "bildunterschrift": "Frontwing-Form im CAD, geöffnet (andere Seite)"
+  },
+  "nahaufnahme-in-cad-von-frontwing-mold-schnittstelle-zu-fuselage": {
+    "sortierung": 70,
+    "bildunterschrift": "Frontwing-Form im CAD, Schnittstelle zur Fuselage (Nahaufnahme)"
+  },
+  "cad-bild-von-geschlossener-forntwing-mold-rueckseite-mit-aussparungen-fuer-schraubverbindung-zusehen": {
+    "sortierung": 80,
+    "bildunterschrift": "Geschlossene Frontwing-Form im CAD, Rückseite mit Aussparungen für die Schraubverbindung"
+  },
+  "formen-3d-drucken": {
+    "sortierung": 10,
+    "bildunterschrift": "Pressformen werden 3D-gedruckt"
+  },
+  "frontwingmold-stueck-in-3d-drucker-problem": {
+    "sortierung": 20,
+    "bildunterschrift": "Druckproblem an einem Frontwing-Form-Stück"
+  },
+  "backwing-mold-druckproblem-verzug-und-rissbildung": {
+    "sortierung": 30,
+    "bildunterschrift": "Druckproblem an der Backwing-Form: Verzug und Rissbildung"
+  },
+  "backwing-mold-druckproblem-verzug-und-rissbildung-2": {
+    "sortierung": 40,
+    "bildunterschrift": "Druckproblem an der Backwing-Form: Verzug und Rissbildung"
+  },
+  "leichter-versatz-von-backwingmold-durch-verzug": {
+    "sortierung": 50,
+    "bildunterschrift": "Leichter Versatz der Backwing-Form durch Verzug"
+  },
+  "backwing-mold-nachbearbeitung-druch-schleifen": {
+    "sortierung": 60,
+    "bildunterschrift": "Backwing-Form: Nachbearbeitung durch Schleifen"
+  },
+  "backwing-mold-schleifen-3": {
+    "sortierung": 70,
+    "bildunterschrift": "Backwing-Form schleifen"
+  },
+  "form-frontwind-nachbearbeitung-1": {
+    "sortierung": 80,
+    "bildunterschrift": "Frontwing-Form: Nachbearbeitung"
+  },
+  "frontwingmold-bearbeitung-auf-bohrmaschine": {
+    "sortierung": 90,
+    "bildunterschrift": "Frontwing-Form: Bearbeitung auf der Bohrmaschine"
+  },
+  "backwingmold-auf-bohrmaschine-bohrungen-nachbearbeiten": {
+    "sortierung": 100,
+    "bildunterschrift": "Backwing-Form: Bohrungen auf der Bohrmaschine nachbearbeiten"
+  },
+  "3d-gedruckte-stifte-fuer-backwingmold-auf-drehbank-anpassen": {
+    "sortierung": 110,
+    "bildunterschrift": "3D-gedruckte Stifte für die Backwing-Form auf der Drehbank anpassen"
+  },
+  "3d-druck-stifte-fuer-backwingmold-auf-drehbank-anpassen-1": {
+    "sortierung": 120,
+    "bildunterschrift": "3D-gedruckte Stifte für die Backwing-Form auf der Drehbank anpassen"
+  },
+  "backwing-mold-mit-trennschichtlack-beschreichen": {
+    "sortierung": 130,
+    "bildunterschrift": "Backwing-Form mit Trennschichtlack bestreichen"
+  },
+  "frontwing-form-mit-trennwach-einwachsen": {
+    "sortierung": 140,
+    "bildunterschrift": "Frontwing-Form mit Trennwachs einwachsen"
+  },
+  "backwing-mold-ausrichten-und-mit-schrauben-montieren": {
+    "sortierung": 150,
+    "bildunterschrift": "Backwing-Form ausrichten und verschrauben"
+  },
+  "frontwing-form-mit-schraubzwingen-klemmen": {
+    "sortierung": 160,
+    "bildunterschrift": "Frontwing-Form mit Schraubzwingen klemmen"
+  },
+  "backwingmold-geschlossen-mit-schraubzwingen-zusammengepresst": {
+    "sortierung": 170,
+    "bildunterschrift": "Backwing-Form geschlossen, mit Schraubzwingen zusammengepresst"
+  },
+  "zusammengesetzte-forntwingmold-positionierstife-sind-zusehen": {
+    "sortierung": 180,
+    "bildunterschrift": "Zusammengesetzte Frontwing-Form, Positionierstifte sichtbar"
+  },
+  "positionierstife-von-frontwingmold-herausschlagen-bei-der-oeffnung-der-mold": {
+    "sortierung": 190,
+    "bildunterschrift": "Positionierstifte beim Öffnen der Frontwing-Form herausschlagen"
+  },
+  "frontwingform-nach-laminierung-oeffnen": {
+    "sortierung": 200,
+    "bildunterschrift": "Frontwing-Form nach der Laminierung öffnen"
+  },
+  "frontwingform-nach-laminierung-oeffnen1": {
+    "sortierung": 210,
+    "bildunterschrift": "Frontwing-Form nach der Laminierung öffnen"
+  },
+  "kern-3d-drucken": {
+    "sortierung": 10,
+    "bildunterschrift": "3D-Druck des Frontwing-Kerns"
+  },
+  "3d-gedrucker-kern-aus-abs": {
+    "sortierung": 20,
+    "bildunterschrift": "Fertig gedruckter Kern aus ABS"
+  },
+  "frontwingmold-alle-lagen-drin-und-3d-kern-darin-bereit-zum-form-schliessen": {
+    "sortierung": 30,
+    "bildunterschrift": "Alle Lagen und der 3D-Kern in der Frontwing-Form, bereit zum Schliessen"
+  },
+  "3d-gedruckter-prototyp-von-backwing-auf-duotone-fuselage-montiert": {
+    "sortierung": 10,
+    "bildunterschrift": "3D-gedruckter Backwing-Prototyp auf der Duotone-Fuselage montiert"
+  },
+  "glasfaserlage-in-backwing-mold-einlegen": {
+    "sortierung": 20,
+    "bildunterschrift": "Glasfaserlage in die Backwing-Form einlegen"
+  },
+  "carbongelege-in-backwingmold-einlegen-und-mit-epoxi-bestreichen": {
+    "sortierung": 30,
+    "bildunterschrift": "Carbongelege in die Backwing-Form einlegen und mit Epoxidharz bestreichen"
+  },
+  "backwing-aus-form-entnommen": {
+    "sortierung": 40,
+    "bildunterschrift": "Backwing aus der Form entnommen"
+  },
+  "backwing-ueberschuessiges-carbon-mit-luftschleifer-wegfraesen": {
+    "sortierung": 50,
+    "bildunterschrift": "Überschüssiges Carbon am Backwing mit dem Luftschleifer wegfräsen"
+  },
+  "backwing-ueberschuessiges-carbon-entfernt": {
+    "sortierung": 60,
+    "bildunterschrift": "Backwing mit entferntem überschüssigem Carbon"
+  },
+  "backwing-schleifen": {
+    "sortierung": 70,
+    "bildunterschrift": "Backwing schleifen"
+  },
+  "auflageflaeche-von-backwing-beim-schleifen-mit-harwinkel-ueberprueft": {
+    "sortierung": 80,
+    "bildunterschrift": "Auflagefläche des Backwings beim Schleifen mit dem Haarwinkel überprüfen"
+  },
+  "backwing-loecher-nach-laminierung-zusehen-muessen-noch-gespachtelt-werden": {
+    "sortierung": 90,
+    "bildunterschrift": "Löcher am Backwing nach der Laminierung, müssen noch gespachtelt werden"
+  },
+  "backwing-loecher-nach-laminierung-zusehen-muessen-noch-gespachtelt-werden1": {
+    "sortierung": 100,
+    "bildunterschrift": "Löcher am Backwing nach der Laminierung, müssen noch gespachtelt werden"
+  },
+  "vorderkante-backing-mit-epoxi-spachteln-kleine-loecher-schliessen": {
+    "sortierung": 110,
+    "bildunterschrift": "Vorderkante des Backwings mit Epoxidharz spachteln, kleine Löcher schliessen"
+  },
+  "backwing-entfetten-fuer-spaeteres-lackieren": {
+    "sortierung": 120,
+    "bildunterschrift": "Backwing entfetten für das spätere Lackieren"
+  },
+  "backwing-zum-lackieren-aufgehaenkt": {
+    "sortierung": 130,
+    "bildunterschrift": "Backwing zum Lackieren aufgehängt"
+  },
+  "backwing-polieren": {
+    "sortierung": 140,
+    "bildunterschrift": "Backwing polieren"
+  },
+  "duotone-frontwing-glide-verstaerkung-nahaufnahme": {
+    "sortierung": 10,
+    "bildunterschrift": "Verstärkung am Duotone Glide Frontwing (Nahaufnahme als Vorbild)"
+  },
+  "schnittstelle-von-duotone-frontwing-nahaufnahme": {
+    "sortierung": 20,
+    "bildunterschrift": "Schnittstelle des Duotone-Frontwings (Nahaufnahme als Vorbild)"
+  },
+  "carbongelege-auschneiden-1": {
+    "sortierung": 30,
+    "bildunterschrift": "Carbongelege zuschneiden"
+  },
+  "mit-schablone-glasfasermatte-zuschneiden": {
+    "sortierung": 40,
+    "bildunterschrift": "Glasfasermatte mit Schablone zuschneiden"
+  },
+  "glasfaser-in-frontwingform-einlegen": {
+    "sortierung": 50,
+    "bildunterschrift": "Glasfaser in die Frontwing-Form einlegen"
+  },
+  "glasfaser-lage-in-frontwingmold-einlegen-2": {
+    "sortierung": 60,
+    "bildunterschrift": "Weitere Glasfaserlage in die Frontwing-Form einlegen"
+  },
+  "carbon-schichten-in-frotnwing-mold-hereingelegt": {
+    "sortierung": 70,
+    "bildunterschrift": "Carbon-Schichten in die Frontwing-Form eingelegt"
+  },
+  "carbongelege-in-frontwingmold-einlegen-2": {
+    "sortierung": 80,
+    "bildunterschrift": "Carbongelege in die Frontwing-Form einlegen"
+  },
+  "carbonlagen-inf-frontwingfrom-einlgen-und-loecher-freilegen": {
+    "sortierung": 90,
+    "bildunterschrift": "Carbonlagen in die Frontwing-Form einlegen und Löcher freilegen"
+  },
+  "carbonlagen-inf-frontwingfrom-einlgen-und-loecher-freilegen1": {
+    "sortierung": 100,
+    "bildunterschrift": "Carbonlagen in die Frontwing-Form einlegen und Löcher freilegen"
+  },
+  "frontwing-aus-form-genommen-ueberschuessiger-rand-zusehen": {
+    "sortierung": 110,
+    "bildunterschrift": "Frontwing aus der Form genommen, überschüssiger Rand sichtbar"
+  },
+  "frontwing-nach-laminierung-ueberschuessiger-rand-zusehen-1": {
+    "sortierung": 120,
+    "bildunterschrift": "Frontwing nach der Laminierung, überschüssiger Rand sichtbar"
+  },
+  "frontwing-ueberschuessiger-rand-zusehen": {
+    "sortierung": 130,
+    "bildunterschrift": "Frontwing mit überschüssigem Rand"
+  },
+  "ueberschuessiges-carbon-von-frontwing-absaegen": {
+    "sortierung": 140,
+    "bildunterschrift": "Überschüssiges Carbon vom Frontwing absägen"
+  },
+  "frontwing-schleifen-1": {
+    "sortierung": 150,
+    "bildunterschrift": "Frontwing schleifen"
+  },
+  "frontwing-fertig-geschliffen": {
+    "sortierung": 160,
+    "bildunterschrift": "Frontwing fertig geschliffen"
+  },
+  "frontwing-zum-lackieren-aufgehaenkt": {
+    "sortierung": 170,
+    "bildunterschrift": "Frontwing zum Lackieren aufgehängt"
+  },
+  "frontwing-lackieren": {
+    "sortierung": 180,
+    "bildunterschrift": "Frontwing lackieren"
+  },
+  "frontwing-nach-lackieren-mit-feinem-schleifpapier-ueberschliffen": {
+    "sortierung": 190,
+    "bildunterschrift": "Frontwing nach dem Lackieren mit feinem Schleifpapier überschliffen"
+  },
+  "bild-von-verwendter-polierpaste": {
+    "sortierung": 200,
+    "bildunterschrift": "Verwendete Polierpaste"
+  },
+  "frontwing-polieren": {
+    "sortierung": 210,
+    "bildunterschrift": "Frontwing polieren"
+  },
+  "frontwing-polieren-1": {
+    "sortierung": 220,
+    "bildunterschrift": "Frontwing polieren"
+  },
+  "manue-an-pc-konstruktion-der-fuselage": {
+    "sortierung": 10,
+    "bildunterschrift": "Manue bei der Konstruktion der Fuselage am PC"
+  },
+  "3d-messplatz": {
+    "sortierung": 20,
+    "bildunterschrift": "Vermessung auf dem 3D-Messplatz"
+  },
+  "cam-programmierung-von-fuselage-fraesbahnen-zusehen": {
+    "sortierung": 30,
+    "bildunterschrift": "CAM-Programmierung der Fräsbahnen für die Fuselage"
+  },
+  "cam-simulation-von-fuselage-erste-seite-der-bearbeitung": {
+    "sortierung": 40,
+    "bildunterschrift": "CAM-Simulation der Fuselage, erste Seite der Bearbeitung"
+  },
+  "1.-spannung-der-fuselage-bei-cnc-bearbeitung": {
+    "sortierung": 50,
+    "bildunterschrift": "Erste Aufspannung der Fuselage bei der CNC-Bearbeitung"
+  },
+  "fuselage-auf-5-achs-fraesmaschine-in-schraubstoecke-gespannt": {
+    "sortierung": 60,
+    "bildunterschrift": "Fuselage auf der 5-Achs-Fräsmaschine in Schraubstöcke gespannt"
+  },
+  "fuselage-und-adapter-nach-cnc-fraesen-noch-nicht-eloxiert": {
+    "sortierung": 70,
+    "bildunterschrift": "Fuselage und Adapterstück nach dem CNC-Fräsen, noch nicht eloxiert"
+  },
+  "helicoil-in-fuselage": {
+    "sortierung": 80,
+    "bildunterschrift": "Helicoil-Gewindeeinsatz in die Fuselage einsetzen"
+  },
+  "helicoil-in-fuselage-1": {
+    "sortierung": 90,
+    "bildunterschrift": "Helicoil-Gewindeeinsatz in der Fuselage"
+  },
+  "fuselage-komplett-fertig-auch-eloxiert": {
+    "sortierung": 100,
+    "bildunterschrift": "Fuselage komplett fertig und schwarz eloxiert"
+  },
+  "fuselage-und-adapter-komplett-fertig-und-eloxiert": {
+    "sortierung": 110,
+    "bildunterschrift": "Fuselage und Adapterstück komplett fertig und eloxiert"
+  },
+  "gefertigte-fuselage-zur-kontrolle-auf-duotone-mast-setzen": {
+    "sortierung": 120,
+    "bildunterschrift": "Gefertigte Fuselage zur Kontrolle auf den Duotone-Mast setzen"
+  },
+  "fertige-cnc-teile-fuselage-und-adapterstueck-aufeinander-gelegt-zum-test": {
+    "sortierung": 130,
+    "bildunterschrift": "Fertige CNC-Teile: Fuselage und Adapterstück zum Test aufeinandergelegt"
+  },
+  "komplettes-foil-zusammengebaut-mit-dimitri-zusehen": {
+    "sortierung": 140,
+    "bildunterschrift": "Komplettes Foil zusammengebaut"
+  },
+  "cam-simulation-adapterstueck-erste-seite": {
+    "sortierung": 10,
+    "bildunterschrift": "CAM-Simulation des Adapterstücks, erste Seite"
+  },
+  "cam programmierung von adapterstück": {
+    "sortierung": 15,
+    "bildunterschrift": "CAM-Programmierung des Adapterstücks"
+  },
+  "alu-rohmaterial-fuer-adapter-in-schraubstock-gespannt": {
+    "sortierung": 20,
+    "bildunterschrift": "Aluminium-Rohmaterial für den Adapter im Schraubstock gespannt"
+  },
+  "erste-seite-von-adapterstueck-in-fraesmaschin-geschruppt": {
+    "sortierung": 30,
+    "bildunterschrift": "Erste Seite des Adapterstücks in der Fräsmaschine geschruppt"
+  },
+  "adaper-cnc-fraesen": {
+    "sortierung": 40,
+    "bildunterschrift": "Adapterstück beim CNC-Fräsen"
+  },
+  "adaper-cnc-fraesen-1": {
+    "sortierung": 50,
+    "bildunterschrift": "Adapterstück beim CNC-Fräsen"
+  },
+  "adapterstueck-1-seite-teil-entnommen": {
+    "sortierung": 60,
+    "bildunterschrift": "Adapterstück, eine Seite aus der Maschine entnommen"
+  },
+  "prototyp-von-adapterstueck-auf-duotone-fuselage-gesetzt": {
+    "sortierung": 70,
+    "bildunterschrift": "Prototyp des Adapterstücks auf die Duotone-Fuselage gesetzt"
+  },
+  "adapterstueck-in-axismast": {
+    "sortierung": 80,
+    "bildunterschrift": "Adapterstück im Axis-Mast"
+  },
+  "axismast-mit-adapterstueck-montiert-mit-unsemem-foil": {
+    "sortierung": 90,
+    "bildunterschrift": "Axis-Mast mit Adapterstück, montiert mit unserem Foil"
+  },
+  "komplette-montiertes-foil-vor-praxistest": {
+    "sortierung": 10,
+    "bildunterschrift": "Komplett montiertes Foil vor dem Praxistest"
+  },
+  "vor-dem-praxistest-frontwing-in-der-hand-vor-montage-auf-mast": {
+    "sortierung": 20,
+    "bildunterschrift": "Frontwing in der Hand vor der Montage auf den Mast"
+  },
+  "montage-auf-mast-beim-praxistest": {
+    "sortierung": 30,
+    "bildunterschrift": "Montage auf den Mast beim Praxistest"
+  },
+  "montage-auf-mast-beim-praxistest1": {
+    "sortierung": 40,
+    "bildunterschrift": "Montage auf den Mast beim Praxistest"
+  },
+  "for-praxistest-gewinde-einfetten": {
+    "sortierung": 50,
+    "bildunterschrift": "Gewinde vor dem Praxistest einfetten"
+  },
+  "beim-praxistest-montiert-auf-mast-manue-und-dimitri-zusehen": {
+    "sortierung": 60,
+    "bildunterschrift": "Beim Praxistest: das Foil montiert auf dem Mast, Manue und Dimitri"
+  },
+  "komplettes-setup-mit-wing-und-manue-im-neoprene-im-wasser": {
+    "sortierung": 70,
+    "bildunterschrift": "Komplettes Setup mit Wing, Manue im Neopren im Wasser"
+  },
+  "nahaufnahme-foil-im-wasser": {
+    "sortierung": 80,
+    "bildunterschrift": "Nahaufnahme des Foils im Wasser"
+  },
+  "manue-mit-boar-und-foil-im-wasser": {
+    "sortierung": 90,
+    "bildunterschrift": "Manue mit Board und Foil im Wasser"
+  },
+  "manue-faehrt-auf-foil": {
+    "sortierung": 100,
+    "bildunterschrift": "Manue fährt auf dem Foil"
+  },
+  "manue-faehrt-halse-mit-foil": {
+    "sortierung": 110,
+    "bildunterschrift": "Manue fährt eine Halse mit dem Foil"
+  },
+  "fertiges-foil-auf-stein": {
+    "ausblenden": true,
+    "bildunterschrift": "Fertiges Hydrofoil auf Stein"
+  }
+}
