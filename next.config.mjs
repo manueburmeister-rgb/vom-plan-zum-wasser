@@ -2,16 +2,19 @@ import createMDX from '@next/mdx'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Statischer Export: erzeugt reine HTML+CSS+JS-Dateien beim Build,
+  // KEINE Serverless Functions. Perfekt fuer diese Read-Only-Doku-Seite
+  // und umgeht das Vercel-300MB-Function-Limit (das Bilder im public/-Bundle nicht packt).
+  output: 'export',
   pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
   reactStrictMode: true,
   images: {
-    // Auto-Optimization via Vercel: WebP/AVIF + Responsive srcset.
-    formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    // Bei static export muss Next.js Image-Optimization deaktiviert sein.
+    // Bilder werden direkt aus /public ausgeliefert.
+    unoptimized: true,
   },
-  // Block dev-only routes from production build.
-  // Pages in app/_dev/* werden in Production einfach 404 zurückgeben (siehe page-Implementation in Phase 4).
+  // Trailing slash: bessere Kompatibilitaet mit statischen Hostern
+  trailingSlash: true,
 }
 
 const withMDX = createMDX({
