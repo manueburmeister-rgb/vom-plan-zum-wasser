@@ -80,9 +80,17 @@ export function Footer() {
           <p>
             © {siteConfig.idpaJahr} {autorenString}. Alle Bildrechte beim Team.
           </p>
-          <p className="font-mono uppercase tracking-wider">
-            IDPA {siteConfig.idpaJahr} · {siteConfig.klasse}
-          </p>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/impressum"
+              className="hover:text-wing transition-colors"
+            >
+              Impressum
+            </Link>
+            <p className="font-mono uppercase tracking-wider">
+              IDPA {siteConfig.idpaJahr} · {siteConfig.klasse}
+            </p>
+          </div>
         </div>
       </div>
     </footer>
