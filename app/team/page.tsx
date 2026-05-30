@@ -6,7 +6,7 @@ import type { ScannedImage } from '@/lib/types'
 
 export const runtime = 'nodejs'
 
-export const metadata = { title: 'Team' }
+export const metadata = { title: 'Über uns' }
 
 export default async function TeamPage() {
   const team = getTeam()
@@ -20,9 +20,9 @@ export default async function TeamPage() {
   return (
     <div className="mx-auto max-w-4xl px-5 py-16 lg:px-10">
       <header className="mb-12">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-wing">Team</p>
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-wing">Über uns</p>
         <h1 className="mt-2 font-display text-5xl uppercase tracking-tight text-ink-primary md:text-7xl">
-          Wer dahinter steckt
+          Manue & Dimitri
         </h1>
       </header>
 

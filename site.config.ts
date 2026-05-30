@@ -274,7 +274,7 @@ export const siteConfig = {
     { label: 'Prozess', href: '/prozess' },
     { label: 'Galerie', href: '/galerie' },
     { label: 'Glossar', href: '/glossar' },
-    { label: 'Team', href: '/team' },
+    { label: 'Über uns', href: '/team' },
     { label: 'Reflexion', href: '/reflexion' },
   ],
 
